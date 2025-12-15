@@ -1,6 +1,6 @@
 # card-resevation-hotel
 ## 📸 Project Screenshot
-![Project Screenshot](Screenshot.png)
+![Project Screenshot](card-resevation-hotel/Screenshot.png)
 
 # 🏨 Card Reservation Hotel
 
