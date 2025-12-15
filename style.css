@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'IranSans';
+    src: url('./fonts/IRANSansWeb\(2\).woff2') format('woff2'),
+        url('./fonts/IRANSansWeb.woff') format('woff'),
+        url('./fonts/IRANSansWeb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'IranSans',  sans-serif;
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e9ecef;
+}
+.container {
+    width: 1000px;
+    height: 230px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+}
+.status {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 500;
+}
+.left-section {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+}
+.image-section {
+    margin-right: 5px;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.content-section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 10px; 
+}
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a202c;
+    margin: 5px 0;
+    margin-right: 7px;
+}
+.rating-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;   
+}
+.rating {
+    color: #f59e0b;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.divider-vertical {
+    width: 1px;
+    height: 20px;
+    background-color: #e2e8f0;
+    margin-right: 7px;  
+}
+.score {
+    font-size: 16px;
+    color: #1a202c;
+    margin-right: 7px;
+}
+
+.address {
+    font-size: 15px;
+    color: #4a5568;
+    margin-top: 15px; 
+    margin-right: 7px;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 40px;
+        }
+.options .option-text:nth-child(4) {
+    margin-top: 2px; 
+    display: block;
+        }
+.option-text {
+    font-size: 14px;
+    color: #2d3748;
+    padding: 5px 10px; 
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin: 5px; 
+    cursor: pointer;
+    transition: color 0.3s, border-color 0.3s;
+    white-space: nowrap;
+}
+.option-text:first-child {
+    margin-left: 0;
+}
+.option-text:hover {
+    color: #1a202c;
+    border-color: #cbd5e0;
+}
+.right-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    border-left: 1px solid #e2e8f0;
+        }
+.divider-vertical-right {
+    width: 1px;
+    height: 200px;
+    background-color: #e2e8f0;
+    left: 70%;
+    top: 60px;
+    margin-left: 5px;
+}
+.discount-tag {
+    background-color: #ddf9e0;
+    color: #30aa4c;
+    padding: 4px 8px;
+    border: 1px solid ;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 5px 5px 12px 0;
+    align-self: flex-start;
+}
+.discount-price {
+    font-size: 16px;
+    color: #1a202c;
+    margin-top: 10px;
+}
+.discount-price-1{
+    font-size: 16px;
+    color: #1a202c;    
+}
+.button {
+    background-color: #f31f34;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    width: 250px; 
+    height: 50px;
+    margin-top: 40px; 
+}
+.button:hover {
+    background-color: #d22e3e;
+}
